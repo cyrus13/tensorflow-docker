@@ -13,9 +13,9 @@ https://stackoverflow.com/questions/37523980/running-gui-apps-on-docker-containe
 
 How to build:
 
-docker build -f 1.12.0.cpu-py3-gui.Dockerfile -t cyrus1313/tensorflow:1.12.0-py3-gui .
+docker build -f 1.12.0.cpu-py3-gui.Dockerfile -t youruser/tensorflow:1.12.0-py3-gui .
 
 How to run:
 
-docker run -e DISPLAY=$IP:0 -it cyrus1313/tensorflow:1.12.0-py3-gui bash
+docker run -e DISPLAY=$IP:0 -it youruser/tensorflow:1.12.0-py3-gui bash
 
