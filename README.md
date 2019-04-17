@@ -22,9 +22,9 @@ How to build:
 docker build -f 1.12.0.cpu-py3-gui.Dockerfile -t youruser/tensorflow:1.12.0-py3-gui .
 ```
 
-Now you have the image. You can run it with the following command (it is important to follow the instructions in the stackoverflow link above, in order to be able to forward GUI commands to )
+Now you have the image. You can run it with the following command (it is important to follow the instructions in the stackoverflow link above, in order to be able to forward GUI commands to the host macOS)
 
-How to run:
+How to run the image:
 ```
 docker run -e DISPLAY=$IP:0 -it youruser/tensorflow:1.12.0-py3-gui bash
 ```
