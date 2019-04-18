@@ -16,7 +16,7 @@ Instructions on how to allow docker to forward terminal can be found here:
 https://stackoverflow.com/questions/37523980/running-gui-apps-on-docker-container-with-a-macbookpro-host
 
 How to build:
-1. Download 1.12.0.cpu-py3-gui.Dockerfile
+1. Download [1.12.0.cpu-py3-gui.Dockerfile](1.12.0.cpu-py3-gui.Dockerfile) from the repository
 2. Using terminal navigate to the directory you downloaded the 1.12.0.cpu-py3-gui.Dockerfile
 ```
 docker build -f 1.12.0.cpu-py3-gui.Dockerfile -t youruser/tensorflow:1.12.0-py3-gui .
