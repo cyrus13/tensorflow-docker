@@ -9,7 +9,7 @@ This is work in progress.
 # 1.12.0.cpu-py3-gui.Dockerfile
 Tensorflow on Docker with ability to forward xterm output to a MacOS terminal effectivelly giving the ability to view graphics (e.g. matplot). You can either 
 
-You can either "Build from Source" or Pull the image from DockerHub.
+You can either ["Build from Source"](https://github.com/cyrus13/tensorflow-docker#building-docker-image-from-source-1120cpu-py3-guidockerfile) or [Pull the image from DockerHub](https://github.com/cyrus13/tensorflow-docker#pull-image-from-dockerhub).
 
 ## Building Docker image from source: 1.12.0.cpu-py3-gui.Dockerfile
 
@@ -41,9 +41,9 @@ docker run -e DISPLAY=$IP:0 -it youruser/tensorflow:1.12.0-py3-gui bash
 # 1.13.1.cpu-py3.7.Dockerfile
 Tensorflow on Docker with Python 3.7 (not officially supported by Tensorflow yet, but it works fine with some experiments I am using).
 
-You can either "Build from Source" or Pull the image from DockerHub.
+You can either ["Build from Source"] or [Pull the image from DockerHub](https://github.com/cyrus13/tensorflow-docker#pull-image-from-dockerhub-1).
 
-## Instructions on how to use 1.13.1.cpu-py3.7.Dockerfile
+## Building Docker image from source: 1.13.1.cpu-py3.7.Dockerfile
 
 How to build:
 1. Download [1.13.1.cpu-py3.7.Dockerfile](1.13.1.cpu-py3.7.Dockerfile) from the repository
